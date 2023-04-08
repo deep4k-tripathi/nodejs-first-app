@@ -1,0 +1,44 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+main{
+    display: flex;
+    background-color: rgb(255, 255, 222);
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+}
+h1{
+    text-align: center;
+    padding: 1px;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    gap: 5px;
+    border: black solid 3px;
+    padding: 10px;
+    height: 250px;
+    width: 25vw;
+    background: rgb(224, 242, 124);
+}
+input{
+    padding: 6px;
+    border: black solid 2px;
+
+}
+button{
+    padding: 4px;
+    cursor: pointer;
+    border: black solid 2px;
+}
+.error{
+    color: red;
+    text-align: left;
+    font-size:medium;
+    height: 0px;
+    margin-top: -24px;
+
+}
